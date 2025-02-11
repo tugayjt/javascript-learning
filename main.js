@@ -1,5 +1,6 @@
-import { multiply, sum } from "./Modules/math.js";
+const arr = ["AZ","TR","RU","LV"]
 
 
-sum(2,3);
-multiply(2,3)
+for (let i = 0; i < arr.length; i++){
+    console.log(`index = ${i},value = ${arr[i]}`);
+}
