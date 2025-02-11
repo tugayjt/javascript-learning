@@ -9,4 +9,4 @@ const value3 = !!userInput
 
 console.log(value1); "Baku"
 console.log(value2);  "0"
-console.log(value3);  ""
+console.log(value3);  "False"
