@@ -32,3 +32,18 @@ function recursion() {
 }
 
 recursion(); 
+
+
+function first() {
+    second();
+}
+
+function second() {
+    third();
+}
+
+function third() {
+    throw new Error("Bir xəta baş verdi!");
+}
+
+first();
